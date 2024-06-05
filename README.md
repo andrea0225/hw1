@@ -1,0 +1,11 @@
+struttura del sito
+- includes/css/
+  - style.css
+- includes/js/
+  - script.js
+- includes/img/
+  - (immagini del sito)
+- includes/fonts/
+  - (font utilizzati nel sito)
+- vendor/
+  - (librerie esterne, come Bootstrap o jQuery)

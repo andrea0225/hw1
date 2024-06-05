@@ -1,0 +1,175 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 30px;
+}
+
+
+nav a img{
+    width: 120px;
+    height: auto;
+}
+
+nav p {
+    float: right;
+    color: #707070;
+}
+
+.signin_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    padding: 15px;
+}
+
+.right h1{
+    align-items: flex-start;
+}
+
+.left img{
+    border-radius: 25px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#input_nome{
+    margin-right: 5px;
+}
+
+.form_container{
+    display: block;
+    width: 500px;
+}
+
+input ,button{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    background-color: #3665f3;
+    border: 1px solid #3665f3;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover{
+
+}
+
+#error-msg{
+    display: flex;
+    align-items: center;
+}
+
+#error-msg span{
+    font-size: 25px;
+    color: red;
+    
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+#disclaimer{
+    color: #8f8f8f;
+    font-size: 12px;
+    width: 70%;
+}
+
+label{
+    position: absolute;
+    font-size: 10px;
+}
+
+.input-group:first-of-type{
+    margin-right: 5px;
+}
+
+.input-group{
+    position: relative;
+    width: 100%;
+}
+
+.input-group label{
+    display: none;
+    top: 12px;
+    left: 8px;
+}
+
+#error-msg{
+    display: flex;
+    align-items: center;
+}
+
+#error-msg span{
+    font-size: 25px;
+    color: red;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .left{
+        display: none;
+    }
+}
